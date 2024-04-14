@@ -6,7 +6,7 @@
     <title>Sitio Web</title>
     <style>
         header {
-           background-color: #333;
+           background-color: #00d9ff;
            color: white;
            text-align: center;
            padding: 10px 0;
@@ -16,6 +16,19 @@
             display: flex;
             justify-content: center;
             text-align: center; 
+            flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea */
+            gap: 20px; /* Espaciado entre los elementos */
+            margin-top: 20px; /* Margen superior */
+        }
+
+        .par-titulo-imagen {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #e0e0e0; /* Borde alrededor de cada par de título e imagen */
+            border-radius: 5px; /* Bordes redondeados */
         }
 
         img {
@@ -39,42 +52,41 @@
     <header>
         <h1>SNEAKERS</h1>
     </header>
-    <ul>
-    <li><h2>Bienvenido a la mejor tienda de sneakers que encontraras, somos una tienda especializada en sneakers de todo tipo de cualidad y precio. Hacemos envios a nivel nacional e internaconal. A continuacion encontraras clasificado en categorias:</h2>
-    <ul>
-   
+    <h2>¡Hey, qué más! Bienvenido a la tienda online más bacana de sneakers en Colombia, donde la cultura urbana y el estilo se encuentran en cada paso que das. En nuestra esquina virtual, encontrarás la mejor selección de sneakers, desde los clásicos de siempre hasta las últimas tendencias que están pegando duro en las calles.</h2>
+    <h2>¿Quieres un par de zapatos que te hagan brillar en la pista de baile o que te acompañen en tus aventuras urbanas? ¡Pues estás en el lugar indicado, parcero! Navega por nuestro catálogo y descubre una gama amplia de marcas reconocidas y ediciones exclusivas que te dejarán con la boca abierta.</h2>
+    <h2>¡Así que no te duermas en los laureles, parcero! Visita nuestra página, elige tus sneakers favoritos y déjanos ser parte de tu historia en el asfalto. Porque aquí en nuestra tienda, la moda se vive con sabor colombiano y un toque de flow inigualable. ¡Dale, anímate y súmate al movimiento!</h2>
 
     <br><br>
 
-
     <div class="centrado">
-        <h1><a href="Calzado_masculino.html">Calzado Masculino</a></h1>li>
-    </div>
+        <div class="par-titulo-imagen">
+            <h1><a href="Balenciaga.html">Balenciaga</a></h1>
+            <img src="Imagenes/balenciaga.png" alt="imagen-perso" class="imagen-perso">
+        </div>
     
-    <div class="centrado"> 
-        <img src="Imagenes/tenis1.jpeg" alt="imagen-perso" class="imagen-perso">
-    </div>
-    
-    <br><br>
+        <div class="par-titulo-imagen"> 
+            <h1><a href="NewBalance.html">New Balance</a></h1>
+            <img src="Imagenes/newbalace.png" alt="Imagen pequeña" class="imagen-pequena">
+        </div>
+        <div class="par-titulo-imagen"> 
+            <h1><a href="Puma.html">Puma</a></h1>
+            <img src="Imagenes/puma.png" alt="Imagen perso" class="imagen-perso">
+        </div>
 
-    <div class="centrado"> 
-        <h1><a href="Calzado_femenino.html">Calzado Femenino</a></h1>li>
-    </div>
-    
-    <div class="centrado">
-        <img src="Imagenes/tenis2.jpeg" alt="Imagen pequeña" class="imagen-pequena">
-    </div>
+        <div class="par-titulo-imagen"> 
+            <h1><a href="Adidas.html">Adidas</a></h1>
+            <img src="Imagenes/adidas.png" alt="Imagen perso" class="imagen-perso">
+        </div>
 
-    <br><br>
-    
-    <div class="centrado"> 
-        <h1><a href="Calzado_infantil.html">Calzado Infantil</a></li>
-    </div>
-    
-    <div class="centrado">
-        <img src="Imagenes/tenis3.jpeg" alt="Imagen perso" class="imagen-perso">
-    </div>
+        <div class="par-titulo-imagen"> 
+            <h1><a href="Nike.html">Nike</a></h1>
+            <img src="Imagenes/nike.png" alt="Imagen perso" class="imagen-perso">
+        </div>
 
-
+        <div class="par-titulo-imagen"> 
+            <h1><a href="Vuitton.html">Louis Vuitton</a></h1>
+            <img src="Imagenes/vuitton.png" alt="Imagen perso" class="imagen-perso">
+        </div>
+    </div>
 </body>
 </html>
